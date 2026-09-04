@@ -1,0 +1,34 @@
+{
+  "foundation": {
+    "name": "DKA FOUNDATION",
+    "tagline": "Innovation. Compassion. Community.",
+    "mission": "To inspire innovation, empower communities, and create lasting change by advancing education, promoting health, protecting the environment, and championing human rights.",
+    "vision": "A world where innovation, compassion, and community empowerment create lasting opportunities for every individual to thrive.",
+    "charityNumber": "[PENDING]",
+    "registrationStatus": "In Progress"
+  },
+  "contact": {
+    "email": "contact@dkafoundation.org",
+    "phone": "+44 [YOUR NUMBER]",
+    "address": "[UK ADDRESS]",
+    "website": "www.dkafoundation.org"
+  },
+  "branding": {
+    "primaryColor": "#FFD700",
+    "secondaryColor": "#003366",
+    "accentColor": "#00A86B",
+    "fontFamily": "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+  },
+  "campaigns": {
+    "currentCycle": "Launch 2024",
+    "channels": ["Instagram", "Facebook", "Twitter", "LinkedIn", "Email"],
+    "launchDate": "2024-Q4"
+  },
+  "features": {
+    "documentGenerator": true,
+    "webApplication": true,
+    "campaignManager": true,
+    "pitchDeck": true,
+    "donorJourneyMapper": true
+  }
+}

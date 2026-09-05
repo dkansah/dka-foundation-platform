@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DKA FOUNDATION - Innovation. Compassion. Community.</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">DKA FOUNDATION</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#what-we-do">What We Do</a></li>
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#donate">Donate</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Innovation. Compassion. Community.</h1>
+            <p class="hero-subtitle">Building a better future together through education, health, sustainability, and human rights.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollTo('donate')">Donate Now</button>
+                <button class="btn btn-secondary" onclick="scrollTo('about')">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-about">
+        <div class="container">
+            <h2>About DKA FOUNDATION</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>🌟 Our Mission</h3>
+                    <p>To inspire innovation, empower communities, and create lasting change by advancing education and science, promoting health and wellbeing, protecting the environment, and championing human rights.</p>
+                </div>
+                <div class="about-card">
+                    <h3>🌍 Our Vision</h3>
+                    <p>A world where innovation, compassion, and community empowerment create lasting opportunities for every individual to thrive through education, health, human rights, and environmental stewardship.</p>
+                </div>
+                <div class="about-card">
+                    <h3>💡 Our Values</h3>
+                    <p>Innovation • Compassion • Integrity • Collaboration • Sustainability • Equity • Resilience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Do Section -->
+    <section id="what-we-do" class="section-services">
+        <div class="container">
+            <h2>What We Do</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎓</div>
+                    <h3>Education & Innovation</h3>
+                    <p>Training programs, research initiatives, and innovation hubs empowering the next generation.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💊</div>
+                    <h3>Health & Wellbeing</h3>
+                    <p>Healthcare outreach, wellness campaigns, and lifesaving support for vulnerable populations.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🌱</div>
+                    <h3>Environment & Sustainability</h3>
+                    <p>Conservation projects, climate action, and green innovation for our planet's future.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👥</div>
+                    <h3>Community Development</h3>
+                    <p>Empowerment projects, youth programs, and social enterprise support.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚖️</div>
+                    <h3>Human Rights & Justice</h3>
+                    <p>Advocacy, conflict resolution, and peacebuilding initiatives.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Arts & Culture</h3>
+                    <p>Supporting creative expression and cultural heritage that enriches communities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section id="impact" class="section-impact">
+        <div class="container">
+            <h2>Our Impact</h2>
+            <div class="impact-stats">
+                <div class="stat">
+                    <h3>1,000+</h3>
+                    <p>Lives Touched</p>
+                </div>
+                <div class="stat">
+                    <h3>6</h3>
+                    <p>Focus Areas</p>
+                </div>
+                <div class="stat">
+                    <h3>100%</h3>
+                    <p>Public Benefit</p>
+                </div>
+                <div class="stat">
+                    <h3>2024</h3>
+                    <p>Year Founded</p>
+                </div>
+            </div>
+            <div class="impact-chart">
+                <canvas id="impactChart"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donate Section -->
+    <section id="donate" class="section-donate">
+        <div class="container">
+            <h2>Make a Difference</h2>
+            <p class="section-subtitle">Your donation directly supports education, health, environment, and human rights initiatives.</p>
+            
+            <div class="donation-options">
+                <div class="donation-card">
+                    <h3>One-Time Gift</h3>
+                    <div class="amount-buttons">
+                        <button class="amount-btn" onclick="selectAmount(25)">£25</button>
+                        <button class="amount-btn" onclick="selectAmount(50)">£50</button>
+                        <button class="amount-btn" onclick="selectAmount(100)">£100</button>
+                        <button class="amount-btn" onclick="selectAmount(250)">£250</button>
+                        <input type="number" id="customAmount" placeholder="Custom amount" min="1">
+                    </div>
+                    <button class="btn btn-primary" onclick="processDonation()">Donate Now</button>
+                </div>
+                
+                <div class="donation-card">
+                    <h3>Monthly Support</h3>
+                    <p>Become a sustaining member and create lasting impact.</p>
+                    <div class="amount-buttons">
+                        <button class="amount-btn" onclick="selectAmount(10)">£10/mo</button>
+                        <button class="amount-btn" onclick="selectAmount(25)">£25/mo</button>
+                        <button class="amount-btn" onclick="selectAmount(50)">£50/mo</button>
+                    </div>
+                    <button class="btn btn-primary" onclick="processRecurringDonation()">Set Up Monthly</button>
+                </div>
+            </div>
+            
+            <div class="donation-info">
+                <h3>💡 Did You Know?</h3>
+                <ul>
+                    <li><strong>£25</strong> funds a child's STEM training for a month</li>
+                    <li><strong>£50</strong> provides healthcare to 5 patients in underserved areas</li>
+                    <li><strong>£100</strong> plants 50 trees for climate action</li>
+                    <li><strong>£250</strong> supports an advocacy campaign for human rights</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteer/Partner Section -->
+    <section id="get-involved" class="section-involved">
+        <div class="container">
+            <h2>Get Involved</h2>
+            <div class="involved-options">
+                <div class="involved-card">
+                    <h3>🤝 Become a Partner</h3>
+                    <p>Corporations and organizations: partner with us for corporate social responsibility and cause-related marketing.</p>
+                    <button class="btn btn-secondary" onclick="openModal('partner')">Partnership Inquiry</button>
+                </div>
+                <div class="involved-card">
+                    <h3>👥 Volunteer</h3>
+                    <p>Share your skills and passion. Join our team of changemakers.</p>
+                    <button class="btn btn-secondary" onclick="openModal('volunteer')">Sign Up to Volunteer</button>
+                </div>
+                <div class="involved-card">
+                    <h3>📢 Advocate</h3>
+                    <p>Amplify our mission. Share our work on social media and in your community.</p>
+                    <button class="btn btn-secondary" onclick="openModal('advocate')">Become an Advocate</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-info">
+                <p>📧 <strong>Email:</strong> contact@dkafoundation.org</p>
+                <p>📱 <strong>Phone:</strong> +44 [NUMBER]</p>
+                <p>🌐 <strong>Website:</strong> www.dkafoundation.org</p>
+                <p>📍 <strong>Location:</strong> [UK ADDRESS]</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 DKA FOUNDATION. All rights reserved.</p>
+            <p>Registered Charity [PENDING] | Charity Commission for England & Wales</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a> | 
+                <a href="#">Terms of Use</a> | 
+                <a href="#">Accessibility</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div id="partnerModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('partner')">&times;</span>
+            <h2>Partnership Inquiry</h2>
+            <form id="partnerForm">
+                <input type="text" placeholder="Organization Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Tell us about your partnership interest"></textarea>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="volunteerModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('volunteer')">&times;</span>
+            <h2>Volunteer Sign-Up</h2>
+            <form id="volunteerForm">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Phone" required>
+                <select required>
+                    <option>Select your skills/interest</option>
+                    <option>Education & Training</option>
+                    <option>Healthcare Support</option>
+                    <option>Environmental Conservation</option>
+                    <option>Community Organizing</option>
+                    <option>Advocacy & Communications</option>
+                </select>
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="advocateModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('advocate')">&times;</span>
+            <h2>Become an Advocate</h2>
+            <form id="advocateForm">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Social Media Handle (optional)">
+                <textarea placeholder="Why do you want to advocate for us?"></textarea>
+                <button type="submit" class="btn btn-primary">Join Our Advocacy Team</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

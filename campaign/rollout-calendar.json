@@ -1,0 +1,299 @@
+{
+  "campaignName": "DKA FOUNDATION Launch 2024",
+  "duration": "6 weeks",
+  "startDate": "2024-Q4",
+  "objectives": [
+    "Build brand awareness",
+    "Acquire early donors",
+    "Recruit volunteers and partners",
+    "Establish community presence"
+  ],
+  "week1": {
+    "theme": "Launch & Awareness",
+    "goal": "Introduce DKA FOUNDATION to the world",
+    "activities": [
+      {
+        "date": "Monday",
+        "channel": "Instagram",
+        "content": "Hero banner post: 'Innovation. Compassion. Community.'",
+        "type": "image_post",
+        "hashtags": "#DKAFuture #InnovationCompassionCommunity"
+      },
+      {
+        "date": "Tuesday",
+        "channel": "Email",
+        "content": "Launch announcement to subscriber list",
+        "type": "email_blast",
+        "subject": "Introducing DKA FOUNDATION - Join Our Movement"
+      },
+      {
+        "date": "Wednesday",
+        "channel": "Facebook",
+        "content": "Mission statement with cinematic video",
+        "type": "video_post",
+        "duration": "60 seconds"
+      },
+      {
+        "date": "Thursday",
+        "channel": "Twitter/X",
+        "content": "Thread: What makes DKA FOUNDATION different? (5 tweets)",
+        "type": "thread",
+        "engagement_target": "100+ retweets"
+      },
+      {
+        "date": "Friday",
+        "channel": "LinkedIn",
+        "content": "Founder's message: Why we started DKA FOUNDATION",
+        "type": "article",
+        "length": "500 words"
+      },
+      {
+        "date": "Saturday-Sunday",
+        "channel": "All Channels",
+        "content": "Live Q&A or livestream introducing the team",
+        "type": "live_event",
+        "platform": "Instagram/Facebook Live"
+      }
+    ]
+  },
+  "week2": {
+    "theme": "Impact Stories",
+    "goal": "Demonstrate real-world impact and build emotional connection",
+    "activities": [
+      {
+        "date": "Monday",
+        "channel": "Instagram",
+        "content": "Beneficiary spotlight: Student in robotics program",
+        "type": "carousel_post",
+        "format": "Before/After story"
+      },
+      {
+        "date": "Tuesday",
+        "channel": "Email",
+        "content": "Impact story: Healthcare outreach in underserved area",
+        "type": "narrative_email",
+        "call_to_action": "Donate to expand healthcare programs"
+      },
+      {
+        "date": "Wednesday",
+        "channel": "TikTok/Reels",
+        "content": "30-second cinematic clip of real project",
+        "type": "short_video",
+        "music": "Inspirational track"
+      },
+      {
+        "date": "Thursday",
+        "channel": "LinkedIn",
+        "content": "Employee/volunteer story: Why I joined DKA",
+        "type": "employee_story",
+        "author": "Team member"
+      },
+      {
+        "date": "Friday",
+        "channel": "Facebook",
+        "content": "Photo essay: Environment conservation project",
+        "type": "photo_gallery",
+        "images": "8-10 photos"
+      }
+    ]
+  },
+  "week3": {
+    "theme": "Values & Engagement",
+    "goal": "Build trust through values alignment",
+    "activities": [
+      {
+        "date": "Daily",
+        "channel": "Instagram Stories",
+        "content": "Value of the day series (7 days, 7 values)",
+        "type": "story_series",
+        "format": "Icon + short definition"
+      },
+      {
+        "date": "Monday",
+        "channel": "All Channels",
+        "content": "Innovation - How we embrace creative solutions",
+        "type": "multi_post"
+      },
+      {
+        "date": "Tuesday",
+        "channel": "All Channels",
+        "content": "Compassion - Stories of empathetic action",
+        "type": "multi_post"
+      },
+      {
+        "date": "Wednesday",
+        "channel": "Email",
+        "content": "Values deep-dive: How we uphold integrity",
+        "type": "educational_email"
+      },
+      {
+        "date": "Thursday",
+        "channel": "Webinar/Live",
+        "content": "Q&A with trustees about values in action",
+        "type": "live_event",
+        "duration": "45 minutes"
+      },
+      {
+        "date": "Friday",
+        "channel": "Twitter/X",
+        "content": "Poll: Which DKA value resonates most with you?",
+        "type": "interactive_poll"
+      }
+    ]
+  },
+  "week4": {
+    "theme": "Call to Action",
+    "goal": "Drive donations, partnerships, and volunteering",
+    "activities": [
+      {
+        "date": "Monday",
+        "channel": "All Channels",
+        "content": "Cinematic sunset image: 'Join us. Partner with us.'",
+        "type": "visual_cta"
+      },
+      {
+        "date": "Tuesday",
+        "channel": "Email",
+        "content": "Direct donor appeal: Limited time matching gift",
+        "type": "urgent_appeal",
+        "incentive": "2x matching for donations"
+      },
+      {
+        "date": "Wednesday",
+        "channel": "Facebook/Instagram",
+        "content": "Donation ad campaign targeting interested audiences",
+        "type": "paid_ad",
+        "budget": "£500-1000"
+      },
+      {
+        "date": "Thursday",
+        "channel": "All Channels",
+        "content": "Volunteer spotlight + Open volunteer positions",
+        "type": "recruitment_post"
+      },
+      {
+        "date": "Friday",
+        "channel": "LinkedIn",
+        "content": "Corporate partnership opportunities",
+        "type": "b2b_post"
+      },
+      {
+        "date": "Weekend",
+        "channel": "All Channels",
+        "content": "Urgent push: Last 48 hours for special offer",
+        "type": "retargeting_campaign"
+      }
+    ]
+  },
+  "week5": {
+    "theme": "Momentum & Partnerships",
+    "goal": "Announce wins and build coalition",
+    "activities": [
+      {
+        "date": "Monday",
+        "channel": "All Channels",
+        "content": "Announcement: First corporate partnership",
+        "type": "partnership_announcement"
+      },
+      {
+        "date": "Tuesday",
+        "channel": "Email",
+        "content": "Donation milestone update + progress toward goal",
+        "type": "progress_update"
+      },
+      {
+        "date": "Wednesday",
+        "channel": "LinkedIn",
+        "content": "Partner company guest post about collaboration",
+        "type": "guest_post"
+      },
+      {
+        "date": "Thursday",
+        "channel": "Facebook",
+        "content": "Photo from volunteer networking event",
+        "type": "event_coverage"
+      },
+      {
+        "date": "Friday",
+        "channel": "Twitter/X",
+        "content": "Celebrate 100+ volunteers committed to the cause",
+        "type": "celebration_post"
+      }
+    ]
+  },
+  "week6": {
+    "theme": "Closing Push",
+    "goal": "Finalize campaign, celebrate success, secure commitments",
+    "activities": [
+      {
+        "date": "Monday",
+        "channel": "All Channels",
+        "content": "Montage of impact visuals + campaign recap",
+        "type": "video_recap",
+        "duration": "2-3 minutes"
+      },
+      {
+        "date": "Tuesday",
+        "channel": "Email",
+        "content": "Thank you to all supporters + year-ahead vision",
+        "type": "gratitude_email"
+      },
+      {
+        "date": "Wednesday",
+        "channel": "Instagram/TikTok",
+        "content": "Final call for donations with countdown timer",
+        "type": "urgency_post"
+      },
+      {
+        "date": "Thursday",
+        "channel": "Facebook Live",
+        "content": "Live celebration: Campaign results + thank yous",
+        "type": "celebration_event",
+        "duration": "1 hour"
+      },
+      {
+        "date": "Friday",
+        "channel": "All Channels",
+        "content": "Closing message: 'Building a Better Future Together'",
+        "type": "closing_post"
+      },
+      {
+        "date": "Weekend",
+        "channel": "All Channels",
+        "content": "Transition to ongoing engagement strategy",
+        "type": "strategy_shift"
+      }
+    ]
+  },
+  "kpis": {
+    "awareness": {
+      "reach": "50,000+",
+      "impressions": "150,000+",
+      "engagement_rate": "5%+"
+    },
+    "acquisition": {
+      "new_donors": "100+",
+      "average_donation": "£50-100",
+      "total_raised": "£5,000-10,000"
+    },
+    "engagement": {
+      "email_open_rate": "30%+",
+      "click_through_rate": "5%+",
+      "volunteer_signups": "50+"
+    },
+    "retention": {
+      "donor_retention_month_2": "80%+",
+      "repeat_donors": "20%",
+      "advocate_activation": "30%"
+    }
+  },
+  "budget": {
+    "social_media_ads": "£2,000",
+    "email_service": "£100",
+    "content_creation": "£500",
+    "events_hosting": "£300",
+    "tools_platforms": "£200",
+    "contingency": "£200",
+    "total": "£3,300"
+  }
+}

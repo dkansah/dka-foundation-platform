@@ -1,0 +1,121 @@
+[
+  {
+    "week": 1,
+    "day": "Monday",
+    "platform": "Instagram",
+    "content_type": "Image Post",
+    "copy": "🌍 Innovation. Compassion. Community. 🌟\n\nWe are thrilled to introduce DKA FOUNDATION — a movement dedicated to advancing education, health, sustainability, and human rights.\n\nOur mission: To inspire innovation, empower communities, and create lasting change.\n\nJoin us on this journey. 🚀\n\n#DKAFuture #InnovationCompassionCommunity #NGO #SocialImpact",
+    "hashtags": "#DKAFuture #InnovationCompassionCommunity #NGO #SocialImpact #Foundation #Changemakers",
+    "visual": "Hero banner with diverse team collaborating",
+    "cta": "Learn More | Donate"
+  },
+  {
+    "week": 1,
+    "day": "Wednesday",
+    "platform": "Facebook",
+    "content_type": "Video Post",
+    "copy": "🎬 Meet DKA FOUNDATION — where innovation meets compassion.\n\nWatch as our team shares the vision and mission driving our work across education, health, environment, and human rights.\n\nThis is more than a foundation. This is a movement. 💫\n\nWatch the full video and discover how you can be part of building a better future.",
+    "hashtags": "#DKAFuture #SocialImpact #NGO #Mission #Vision",
+    "video_duration": "60 seconds",
+    "video_type": "Cinematic intro",
+    "cta": "Watch Now | Support Our Work"
+  },
+  {
+    "week": 1,
+    "day": "Friday",
+    "platform": "LinkedIn",
+    "content_type": "Long-form Article",
+    "copy": "Why We Started DKA FOUNDATION\n\nIn a world facing unprecedented challenges — from climate crisis to inequality to health disparities — we believed something had to change.\n\nNot just policy change. Not just technology. But a fundamental shift in how we approach social impact: through innovation, compassion, and community.
+
+Our founder's message explores the "why" behind DKA FOUNDATION and invites mission-aligned leaders, organizations, and changemakers to join us.\n\nRead the full story below. 👇",
+    "hashtags": "#DKAFuture #SocialEntrepreneurship #NGO #Leadership #Impact",
+    "article_length": "500 words",
+    "cta": "Read Full Article | Connect With Us"
+  },
+  {
+    "week": 2,
+    "day": "Monday",
+    "platform": "Instagram",
+    "content_type": "Carousel Post",
+    "copy": "Meet Amara — whose life changed through education. 📚✨\n\n6 months ago, Amara joined our robotics training program with zero coding experience. Today, she's building prototypes and dreaming of a tech career.\n\n🔹 Slide 1: Before — curious, determined
+🔹 Slide 2: Training in action
+🔹 Slide 3: First prototype build
+🔹 Slide 4: Confidence and pride\n
+This is what's possible when we invest in youth. This is what DKA FOUNDATION is building. 💪\n\n#EducationMatters #YouthEmpowerment #Innovation #DKAFuture",
+    "hashtags": "#EducationMatters #YouthEmpowerment #Innovation #DKAFuture #STEM #CareerReady",
+    "carousel_slides": 4,
+    "cta": "Support Education Programs"
+  },
+  {
+    "week": 2,
+    "day": "Wednesday",
+    "platform": "TikTok/Reels",
+    "content_type": "Short Video",
+    "copy": "30 seconds. One story. Infinite impact. 🎬\n\nWatch how a DKA FOUNDATION healthcare clinic brings life-saving care to a community with no access.\n\nEvery donation matters. Every life counts. ❤️\n\n#HealthcareHeroes #CommunityFirst #DKAFuture #MakingADifference",
+    "hashtags": "#HealthcareHeroes #CommunityFirst #DKAFuture #MakingADifference #Healthcare #Hope",
+    "video_duration": "15-30 seconds",
+    "trending_sound": "Inspirational background music",
+    "cta": "Donate to Healthcare Programs"
+  },
+  {
+    "week": 3,
+    "day": "Daily",
+    "platform": "Instagram Stories",
+    "content_type": "Story Series",
+    "copy": "Today's Value: INNOVATION 💡\n\nWe believe bold ideas and creative solutions can change the world. ✨\n\nHow do you innovate for good?",
+    "note": "Repeat with different value each day (Innovation, Compassion, Integrity, Collaboration, Sustainability, Equity, Resilience)",
+    "story_duration": "24 hours",
+    "interactive_element": "Polls, questions, stickers",
+    "cta": "Poll: Swipe to vote on your favorite DKA initiative"
+  },
+  {
+    "week": 4,
+    "day": "Tuesday",
+    "platform": "Email",
+    "content_type": "Donation Appeal",
+    "subject": "🎁 Double Your Impact: 2x Matching Gift Available (48 Hours Only)",
+    "copy": "Hi [Supporter Name],\n\nThis is extraordinary: A generous donor has committed to MATCH every dollar donated this week — up to £5,000.\n\nThis means your £50 donation becomes £100. Your £100 becomes £200.\n\nYour impact is doubled.\n\nBut this matching gift expires in 48 hours.\n\nHere's what your doubled donation can do:\n• £50 trains a youth in digital skills\n• £100 provides healthcare to 10 people\n• £250 plants 125 trees\n\nDon't miss this chance to magnify your impact. Donate now. →\n\nWith gratitude,\nThe DKA FOUNDATION Team",
+    "cta_button": "Double My Impact - Donate Now",
+    "urgency": "48 hours only"
+  },
+  {
+    "week": 4,
+    "day": "Wednesday",
+    "platform": "Facebook/Instagram Ads",
+    "content_type": "Paid Ad Campaign",
+    "ad_copy": "Every donation makes a difference. Support education, health, environment, and human rights. Donate today.",
+    "headline": "Join DKA FOUNDATION's Mission",
+    "description": "Advance innovation, empower communities, create lasting change.",
+    "audience": "Interest: Nonprofits, social impact, education, health, environment",
+    "budget": "£500-1000",
+    "campaign_duration": "7-14 days",
+    "target_ctr": "2-5%"
+  },
+  {
+    "week": 5,
+    "day": "Monday",
+    "platform": "All Channels",
+    "content_type": "Partnership Announcement",
+    "copy": "🤝 PARTNERSHIP ANNOUNCEMENT 🤝\n\nWe're thrilled to announce our first corporate partnership with [Partner Name]!\n\nTogether, we're committed to [describe initiative]. This collaboration will impact thousands of lives and accelerate our mission.\n\nThis is what's possible when business and social impact unite. 🌟\n\nBig thanks to [Partner Name] for believing in our vision.\n\nWho's ready to partner with us? Let's build together. 💪",
+    "cta": "Learn About Partnerships"
+  },
+  {
+    "week": 6,
+    "day": "Monday",
+    "platform": "All Channels",
+    "content_type": "Campaign Recap Video",
+    "copy": "6 weeks. 1 movement. Infinite impact. 🎬\n\nThank you for being part of the DKA FOUNDATION launch campaign.\n\nWatch our journey: from day one to today. 👇",
+    "video_duration": "2-3 minutes",
+    "content": "Montage of highlights, beneficiary stories, team photos, donations, volunteers",
+    "cta": "Continue Supporting Our Work"
+  },
+  {
+    "week": 6,
+    "day": "Tuesday",
+    "platform": "Email",
+    "content_type": "Gratitude Email",
+    "subject": "Thank You — You Made This Possible 💫",
+    "copy": "Hi [Supporter Name],\n\nSix weeks ago, we launched DKA FOUNDATION with a bold vision: to inspire innovation, empower communities, and create lasting change.\n\nToday, we celebrate YOU.\n\nBecause of your donation, volunteering, advocacy, and belief in our mission, we've:• Raised £[X] to fuel our impact\n• Recruited [X] volunteers\n• Partnered with [X] organizations\n• Reached [X] people with education, health, and environmental initiatives\n\nBut this is just the beginning.\n\nAs we move into Year 2, our goals are even bigger. Our vision is even clearer. And we'd be honored to have you alongside us.\n\nThank you for making this movement possible.\n\nWith deep gratitude,\nThe DKA FOUNDATION Team",
+    "cta": "Commit to Year 2 | Share Your Story"
+  }
+]

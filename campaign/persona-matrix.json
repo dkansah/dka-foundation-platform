@@ -1,0 +1,77 @@
+[
+  {
+    "persona": "The Innovator",
+    "channels": ["LinkedIn", "Twitter/X", "Innovation Blogs"],
+    "messaging_tone": "Futuristic, solution-driven, visionary",
+    "key_triggers": ["New technology", "Scalability", "Impact metrics", "Research"],
+    "content_types": [
+      "Educational webinars",
+      "Innovation case studies",
+      "Research reports",
+      "Thought leadership articles"
+    ],
+    "call_to_action": "Invest in innovation for global good",
+    "sample_subject_line": "How AI and Social Innovation Are Solving Climate Change",
+    "sample_copy": "At DKA FOUNDATION, we're pioneering innovation at the intersection of education, health, and sustainability. Join our innovation fellowship and help shape the future of social impact."
+  },
+  {
+    "persona": "The Compassionate Giver",
+    "channels": ["Facebook", "Instagram", "Email", "Direct Mail"],
+    "messaging_tone": "Emotional, empathetic, human-focused",
+    "key_triggers": ["Personal stories", "Beneficiary photos", "Heartfelt moments", "Direct impact"],
+    "content_types": [
+      "Beneficiary testimonials",
+      "Before/after stories",
+      "Photo essays",
+      "Video narratives"
+    ],
+    "call_to_action": "Your gift saves lives today",
+    "sample_subject_line": "Meet Sarah — How Your Donation Transformed Her Life",
+    "sample_copy": "For just £50/month, you can provide healthcare, education, and hope to families in crisis. Meet the people your generosity touches."
+  },
+  {
+    "persona": "The Community Builder",
+    "channels": ["WhatsApp Groups", "Local Radio", "Community Events", "Neighborhood Networks"],
+    "messaging_tone": "Inclusive, grassroots, empowering",
+    "key_triggers": ["Local impact", "Community participation", "Collective strength", "Volunteering"],
+    "content_types": [
+      "Community event announcements",
+      "Volunteer spotlights",
+      "Group fundraising guides",
+      "Local success stories"
+    ],
+    "call_to_action": "Help us strengthen communities together",
+    "sample_subject_line": "Join Our Community Gathering This Saturday — Volunteers Needed!",
+    "sample_copy": "Be part of something bigger. We're organizing a neighborhood volunteer day to support local youth education. Bring your friends, bring your skills."
+  },
+  {
+    "persona": "The Environmental Guardian",
+    "channels": ["Instagram", "TikTok", "Eco-Forums", "Sustainability Blogs"],
+    "messaging_tone": "Green, urgent, optimistic",
+    "key_triggers": ["Climate action", "Conservation", "Sustainability", "Biodiversity"],
+    "content_types": [
+      "Environmental impact reports",
+      "Conservation project updates",
+      "Climate education videos",
+      "Tree-planting progress photos"
+    ],
+    "call_to_action": "Protect the planet with us",
+    "sample_subject_line": "We Planted 5,000 Trees This Month — Help Us Plant 50,000 by Year-End",
+    "sample_copy": "Climate crisis is real, but so is climate action. Every tree planted, every hectare protected, every person who joins us brings us closer to a sustainable future."
+  },
+  {
+    "persona": "The Justice Advocate",
+    "channels": ["Twitter/X", "Advocacy Networks", "NGO Newsletters", "LinkedIn"],
+    "messaging_tone": "Bold, principled, urgent",
+    "key_triggers": ["Human rights", "Equity", "Systemic change", "Advocacy wins"],
+    "content_types": [
+      "Advocacy campaign updates",
+      "Policy briefs",
+      "Human rights stories",
+      "Justice movement coverage"
+    ],
+    "call_to_action": "Stand for justice and equity",
+    "sample_subject_line": "Our Latest Advocacy Campaign Secured Policy Change — Here's How You Can Help",
+    "sample_copy": "Justice isn't given; it's demanded. Join our advocacy network fighting for human rights, conflict resolution, and equitable systems. Your voice matters."
+  }
+]
